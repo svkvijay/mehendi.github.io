@@ -1,0 +1,224 @@
+body {
+overflow-x: hidden;
+}
+.cus_container .header div{
+    display: inline-block;
+}
+.cus_container .header h2{
+    display: inline-block;
+    padding-left: 50px;
+    line-height: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    
+    color: #b55015;
+}
+.cus_container .header h2 a{  
+    color: #b55015;
+    text-decoration: none;
+}
+.cus_container .header h2 a:hover{  
+    color: #ec8e57d4;
+    text-decoration: none;
+}
+.cus_container .header{
+    width: 100%;
+    box-shadow: 0 3px #88888854;
+}
+.cus_container .header .contacts{  
+    line-height: 62px;
+    color: #b55015;
+}
+.cus_container .header .menu
+{
+    display: inline-block;
+    padding-left: 50px;
+}
+.cus_container .header .menuBar {
+    width: 20px;
+    height: 3px;
+    background-color: #b55015;
+    margin: 4px 0;
+    display: block;
+}
+.cus_container .header .contacts{
+    font-family: arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    padding-left: 25%;
+}
+.cus_container .header .contacts .direction{
+    padding-left: 60px;
+}
+.container_body {
+    position:absolute;
+    top: 70px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-x: auto;    
+}
+.container_body .title *{
+    margin-top: 30px;
+    text-align: center;
+}
+.container_body .title h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    color: #b55015;
+}
+.container_body .title p {
+    font-size: 14px;
+    color: #191818c2;
+    font-weight: 600;
+}
+.call_btn{
+    background: #b55015;
+    width: 200px;
+    height: 55px;
+    color: #fff;
+    border-radius: 2px;
+}
+.toggleMenu{
+    position: fixed;
+   /* box-shadow: 0 0 5px 0px grey; */
+    height: 100%;
+    width: 400px;
+    background: #fff;
+    z-index: 1;
+}
+.toggleMenu ul{
+    list-style: none;
+    margin-left: 90px;
+}
+.toggleMenu ul li{
+    margin: 40px 0px;
+}
+.toggleMenu ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #b55015;   
+}
+.toggleMenu ul li a:hover{
+    text-decoration: none;
+    color:#ec8e57d4;
+}
+.bigImage {
+    text-align: center;
+    margin: 40px 0px;
+}
+.bigImage img, .about_us{
+    margin: 0px auto;
+}
+.container_body .xs-title *{
+    margin-top: 30px;
+    text-align: center;
+}
+.container_body .xs-title h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    color: #b55015;
+}
+.container_body .xs-title p {
+    font-size: 7px;
+    color: #191818c2;
+    font-weight: 600;
+}
+.sub_title{
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    color: #b55015;
+}
+.divider{
+    border:1px solid;
+    margin: 0px auto;
+    width: 60px;
+}
+.updates_container{
+    margin: 20px 0px;
+}
+.new_updates, .gallery_stills{
+    margin: 0px 8%;
+}
+.new_updates img{
+    height: 300px;
+}
+.thumbnail {
+    border: none;
+}
+.caption h4{
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 16px;
+    color: #b55015;
+}
+.jumbotron{
+    margin: 0px 8%;
+    padding: 100px;
+}
+.about_us_text {
+    margin: 45px;
+}
+.gallery {
+    margin: 60px auto;
+}
+.gallery img{
+    height: 300px;
+}
+#map_canvas {
+    height:400px;
+    width: 80%;
+    border-top:50px solid #fff;
+    border-bottom:20px solid #fff;
+    position: initial;
+    margin: 0px auto;
+}
+.menu {
+    cursor: pointer;
+}
+.product-contact {
+    float: left;
+    font-weight: 600;
+}
+.product-rate {
+    float: right;
+    font-weight: 600;
+}
+.modal-footer {
+    font-size: 14px;
+    text-align: justify;
+    border: none;
+}
+.modal-header {
+    border: none;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;    
+    color: #b55015;
+}
+.modal-body img {
+    margin: 0px auto;
+}
+.contact-details {
+    margin: 0px 10%;
+}
+.contact-details h2, .business-hour h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;    
+    color: #b55015;
+}
+.business-hour p  span{
+    margin-left: 6px;
+}
+.date {
+    display: inline-block;
+}
+.time{
+    display: inline-block;
+    padding: 0px 20px;
+}
