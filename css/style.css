@@ -148,6 +148,7 @@ overflow-x: hidden;
 }
 .new_updates img{
     height: 300px;
+    width: 300px;
 }
 .thumbnail {
     border: none;
@@ -170,6 +171,7 @@ overflow-x: hidden;
 }
 .gallery img{
     height: 300px;
+    width: 300px;
 }
 #map_canvas {
     height:400px;
