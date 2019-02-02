@@ -29,6 +29,12 @@ overflow-x: hidden;
     line-height: 62px;
     color: #b55015;
 }
+.cus_container .header .contacts a{  
+    
+    color: #b55015;
+    
+    text-decoration: none;
+}
 .cus_container .header .menu
 {
     display: inline-block;
